@@ -1,4 +1,4 @@
-package jobsheet1;
+package jobsheet2;
 public class Rectangle {
     public int rlong;
     public int rwide;

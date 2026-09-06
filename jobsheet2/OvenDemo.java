@@ -1,4 +1,4 @@
-package jobsheet1;
+package jobsheet2;
 public class OvenDemo {
     public static void main(String[] args) {
         Oven oven1 = new Oven();

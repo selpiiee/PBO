@@ -1,4 +1,4 @@
-package jobsheet1;
+package jobsheet2;
 
 public class Barang {
     public String code;
