@@ -38,8 +38,8 @@ public class Member {
     }
 
     public void installment(int amount) {
-        if (amount <= 0) {
-            System.out.println("Installment amount must be greater than 0!");
+        if (amount < (0.10 * loanAmount)) {
+            System.out.println("Sorry, the installment must be 10% of the loan amount");
         } else if (amount > loanAmount) {
             System.out.println("Installment amount exceeds current loan!");
             loanAmount = 0;
